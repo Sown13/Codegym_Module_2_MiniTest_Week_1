@@ -1,6 +1,6 @@
 public class Student {
-    String studentName, studentClass;
-    byte studentAge;
+    private String studentName, studentClass;
+    private byte studentAge;
     public Student(String name, String sClass, byte age){
         this.studentName = name;
         this.studentClass = sClass;
